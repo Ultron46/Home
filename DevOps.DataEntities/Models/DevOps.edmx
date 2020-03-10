@@ -1,0 +1,1417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DevOpsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Branch">
+          <Key>
+            <PropertyRef Name="BranchId" />
+          </Key>
+          <Property Name="BranchId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BranchName" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="ProjectId" Type="int" />
+        </EntityType>
+        <EntityType Name="BuildProject">
+          <Key>
+            <PropertyRef Name="BuildId" />
+          </Key>
+          <Property Name="BuildId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProjectId" Type="int" />
+          <Property Name="BuildBy" Type="int" />
+          <Property Name="Mejor_Version" Type="tinyint" />
+          <Property Name="Minor_Version" Type="tinyint" />
+          <Property Name="Build_Version" Type="int" />
+          <Property Name="DownloadURL" Type="nvarchar(max)" />
+          <Property Name="Status" Type="varchar" MaxLength="10" />
+          <Property Name="BuildDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EmailMaster">
+          <Key>
+            <PropertyRef Name="EmailMasterId" />
+          </Key>
+          <Property Name="EmailMasterId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EmailId" Type="varchar(max)" Nullable="false" />
+          <Property Name="OrganisationId" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DevOps.dbo.ErrorLog' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="ErrorLog">
+          <Key>
+            <PropertyRef Name="ErrorId" />
+            <PropertyRef Name="Application" />
+            <PropertyRef Name="Host" />
+            <PropertyRef Name="Type" />
+            <PropertyRef Name="Source" />
+            <PropertyRef Name="Message" />
+            <PropertyRef Name="User" />
+            <PropertyRef Name="StatusCode" />
+            <PropertyRef Name="TimeUtc" />
+            <PropertyRef Name="Sequence" />
+          </Key>
+          <Property Name="ErrorId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Application" Type="nvarchar" MaxLength="60" Nullable="false" />
+          <Property Name="Host" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Type" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Source" Type="nvarchar" MaxLength="60" Nullable="false" />
+          <Property Name="Message" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="User" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="StatusCode" Type="int" Nullable="false" />
+          <Property Name="TimeUtc" Type="datetime" Nullable="false" />
+          <Property Name="Sequence" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MainMenu">
+          <Key>
+            <PropertyRef Name="MainMenuId" />
+          </Key>
+          <Property Name="MainMenuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MainMenuName" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Organisation">
+          <Key>
+            <PropertyRef Name="OrganisationId" />
+          </Key>
+          <Property Name="OrganisationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="Nationality" Type="varchar" MaxLength="50" />
+          <Property Name="Type" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Permissions">
+          <Key>
+            <PropertyRef Name="PermissionId" />
+          </Key>
+          <Property Name="PermissionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoleId" Type="tinyint" />
+          <Property Name="SubMenuId" Type="int" />
+          <Property Name="Read" Type="binary" MaxLength="1" />
+          <Property Name="Write" Type="binary" MaxLength="1" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="ProductId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="Price" Type="int" />
+        </EntityType>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="ProjectId" />
+          </Key>
+          <Property Name="ProjectId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProjectName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SolutionName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="OrganisationId" Type="int" />
+          <Property Name="SourceURL" Type="varchar(max)" Nullable="false" />
+          <Property Name="FileFormat" Type="varchar(max)" Nullable="false" />
+          <Property Name="Status" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Type" Type="varchar" MaxLength="20" />
+          <Property Name="Plateform" Type="varchar" MaxLength="50" />
+          <Property Name="CreatedBy" Type="int" />
+          <Property Name="LastModifiedBy" Type="int" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ReleaseProject">
+          <Key>
+            <PropertyRef Name="ReleaseProjectId" />
+          </Key>
+          <Property Name="ReleaseProjectId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ServerBuildId" Type="int" />
+          <Property Name="ReleaseBy" Type="int" />
+          <Property Name="Mejor_Version" Type="tinyint" />
+          <Property Name="Minor_Version" Type="tinyint" />
+          <Property Name="Build_Version" Type="int" />
+          <Property Name="ReleaseDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoleName" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ServerBuild">
+          <Key>
+            <PropertyRef Name="ServerBuildId" />
+          </Key>
+          <Property Name="ServerBuildId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BuildId" Type="int" />
+          <Property Name="ServerId" Type="int" />
+          <Property Name="PublishedBy" Type="int" />
+          <Property Name="Mejor_Version" Type="tinyint" />
+          <Property Name="Minor_Version" Type="tinyint" />
+          <Property Name="Build_Version" Type="int" />
+          <Property Name="PublishDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ServerConfig">
+          <Key>
+            <PropertyRef Name="ServerId" />
+          </Key>
+          <Property Name="ServerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ServerName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="IPAddress" Type="nvarchar" MaxLength="16" Nullable="false" />
+          <Property Name="RAM" Type="varchar" MaxLength="10" />
+          <Property Name="Processer" Type="varchar" MaxLength="10" />
+          <Property Name="OS" Type="varchar" MaxLength="10" />
+          <Property Name="Version" Type="nvarchar" MaxLength="20" />
+          <Property Name="OrganisationId" Type="int" />
+        </EntityType>
+        <EntityType Name="ServerCredentials">
+          <Key>
+            <PropertyRef Name="ServerCredentialsId" />
+          </Key>
+          <Property Name="ServerCredentialsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ServerId" Type="int" />
+          <Property Name="HostName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ConnectionString" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SubMenu">
+          <Key>
+            <PropertyRef Name="SubMenuId" />
+          </Key>
+          <Property Name="SubMenuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MainMenuId" Type="int" />
+          <Property Name="SubMenuName" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SupportTickets">
+          <Key>
+            <PropertyRef Name="TicketId" />
+          </Key>
+          <Property Name="TicketId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GeneratedBy" Type="int" />
+          <Property Name="FixedBy" Type="int" />
+          <Property Name="Category" Type="varchar" MaxLength="50" />
+          <Property Name="Description" Type="varchar(max)" />
+          <Property Name="Status" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="GeneratedDate" Type="datetime" Nullable="false" />
+          <Property Name="FixedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="Nationality" Type="varchar" MaxLength="50" />
+          <Property Name="Phone" Type="varchar" MaxLength="12" />
+          <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="DateOfBirth" Type="date" />
+          <Property Name="OrganisationId" Type="int" />
+          <Property Name="RoleId" Type="tinyint" />
+          <Property Name="RegistrationDate" Type="date" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_BuildProject_ServerBuild_BuildId">
+          <End Role="BuildProject" Type="Self.BuildProject" Multiplicity="0..1" />
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BuildProject">
+              <PropertyRef Name="BuildId" />
+            </Principal>
+            <Dependent Role="ServerBuild">
+              <PropertyRef Name="BuildId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MainMenu_SubMneu_MainMenuId">
+          <End Role="MainMenu" Type="Self.MainMenu" Multiplicity="0..1" />
+          <End Role="SubMenu" Type="Self.SubMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MainMenu">
+              <PropertyRef Name="MainMenuId" />
+            </Principal>
+            <Dependent Role="SubMenu">
+              <PropertyRef Name="MainMenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_EmailMaster_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="EmailMaster" Type="Self.EmailMaster" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="EmailMaster">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_Poeject_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_ServerConfig_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="ServerConfig" Type="Self.ServerConfig" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="ServerConfig">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_User_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Project_Branch_ProjectId">
+          <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+          <End Role="Branch" Type="Self.Branch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Project">
+              <PropertyRef Name="ProjectId" />
+            </Principal>
+            <Dependent Role="Branch">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Project_BuildProject_ProjectId">
+          <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+          <End Role="BuildProject" Type="Self.BuildProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Project">
+              <PropertyRef Name="ProjectId" />
+            </Principal>
+            <Dependent Role="BuildProject">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Role_Permissions_RoleId">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="Permissions" Type="Self.Permissions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="Permissions">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Role_User_RoleId">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Server_ServerCredentials_ServerId">
+          <End Role="ServerConfig" Type="Self.ServerConfig" Multiplicity="0..1" />
+          <End Role="ServerCredentials" Type="Self.ServerCredentials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ServerConfig">
+              <PropertyRef Name="ServerId" />
+            </Principal>
+            <Dependent Role="ServerCredentials">
+              <PropertyRef Name="ServerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServerBuild_ReleaseProject_ServerBuildId">
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="0..1" />
+          <End Role="ReleaseProject" Type="Self.ReleaseProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ServerBuild">
+              <PropertyRef Name="ServerBuildId" />
+            </Principal>
+            <Dependent Role="ReleaseProject">
+              <PropertyRef Name="ServerBuildId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServerConfig_ServerBuild_ServerId">
+          <End Role="ServerConfig" Type="Self.ServerConfig" Multiplicity="0..1" />
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ServerConfig">
+              <PropertyRef Name="ServerId" />
+            </Principal>
+            <Dependent Role="ServerBuild">
+              <PropertyRef Name="ServerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubMenu_Permissionsu_SubMenuId">
+          <End Role="SubMenu" Type="Self.SubMenu" Multiplicity="0..1" />
+          <End Role="Permissions" Type="Self.Permissions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubMenu">
+              <PropertyRef Name="SubMenuId" />
+            </Principal>
+            <Dependent Role="Permissions">
+              <PropertyRef Name="SubMenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_BuildProject_BuildBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="BuildProject" Type="Self.BuildProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="BuildProject">
+              <PropertyRef Name="BuildBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Project_CreatedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="CreatedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Project_LastModifiedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="LastModifiedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_ReleaseProject_ReleaseBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="ReleaseProject" Type="Self.ReleaseProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ReleaseProject">
+              <PropertyRef Name="ReleaseBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_ServerBuild_PublishedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServerBuild">
+              <PropertyRef Name="PublishedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_SupportTickets_FixedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="SupportTickets" Type="Self.SupportTickets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="SupportTickets">
+              <PropertyRef Name="FixedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_SupportTickets_GeneratedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="SupportTickets" Type="Self.SupportTickets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="SupportTickets">
+              <PropertyRef Name="GeneratedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DevOpsModelStoreContainer">
+          <EntitySet Name="Branch" EntityType="Self.Branch" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BuildProject" EntityType="Self.BuildProject" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EmailMaster" EntityType="Self.EmailMaster" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MainMenu" EntityType="Self.MainMenu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Organisation" EntityType="Self.Organisation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Permissions" EntityType="Self.Permissions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Project" EntityType="Self.Project" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ReleaseProject" EntityType="Self.ReleaseProject" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ServerBuild" EntityType="Self.ServerBuild" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ServerConfig" EntityType="Self.ServerConfig" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ServerCredentials" EntityType="Self.ServerCredentials" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SubMenu" EntityType="Self.SubMenu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SupportTickets" EntityType="Self.SupportTickets" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ErrorLog" EntityType="Self.ErrorLog" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [ErrorLog].[ErrorId] AS [ErrorId], 
+    [ErrorLog].[Application] AS [Application], 
+    [ErrorLog].[Host] AS [Host], 
+    [ErrorLog].[Type] AS [Type], 
+    [ErrorLog].[Source] AS [Source], 
+    [ErrorLog].[Message] AS [Message], 
+    [ErrorLog].[User] AS [User], 
+    [ErrorLog].[StatusCode] AS [StatusCode], 
+    [ErrorLog].[TimeUtc] AS [TimeUtc], 
+    [ErrorLog].[Sequence] AS [Sequence]
+    FROM [dbo].[ErrorLog] AS [ErrorLog]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_BuildProject_ServerBuild_BuildId" Association="Self.FK_BuildProject_ServerBuild_BuildId">
+            <End Role="BuildProject" EntitySet="BuildProject" />
+            <End Role="ServerBuild" EntitySet="ServerBuild" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MainMenu_SubMneu_MainMenuId" Association="Self.FK_MainMenu_SubMneu_MainMenuId">
+            <End Role="MainMenu" EntitySet="MainMenu" />
+            <End Role="SubMenu" EntitySet="SubMenu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_EmailMaster_OrganisationId" Association="Self.FK_Organisation_EmailMaster_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisation" />
+            <End Role="EmailMaster" EntitySet="EmailMaster" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_Poeject_OrganisationId" Association="Self.FK_Organisation_Poeject_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisation" />
+            <End Role="Project" EntitySet="Project" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_ServerConfig_OrganisationId" Association="Self.FK_Organisation_ServerConfig_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisation" />
+            <End Role="ServerConfig" EntitySet="ServerConfig" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_User_OrganisationId" Association="Self.FK_Organisation_User_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisation" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Project_Branch_ProjectId" Association="Self.FK_Project_Branch_ProjectId">
+            <End Role="Project" EntitySet="Project" />
+            <End Role="Branch" EntitySet="Branch" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Project_BuildProject_ProjectId" Association="Self.FK_Project_BuildProject_ProjectId">
+            <End Role="Project" EntitySet="Project" />
+            <End Role="BuildProject" EntitySet="BuildProject" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Role_Permissions_RoleId" Association="Self.FK_Role_Permissions_RoleId">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="Permissions" EntitySet="Permissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Role_User_RoleId" Association="Self.FK_Role_User_RoleId">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="User" EntitySet="User" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Server_ServerCredentials_ServerId" Association="Self.FK_Server_ServerCredentials_ServerId">
+            <End Role="ServerConfig" EntitySet="ServerConfig" />
+            <End Role="ServerCredentials" EntitySet="ServerCredentials" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServerBuild_ReleaseProject_ServerBuildId" Association="Self.FK_ServerBuild_ReleaseProject_ServerBuildId">
+            <End Role="ServerBuild" EntitySet="ServerBuild" />
+            <End Role="ReleaseProject" EntitySet="ReleaseProject" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServerConfig_ServerBuild_ServerId" Association="Self.FK_ServerConfig_ServerBuild_ServerId">
+            <End Role="ServerConfig" EntitySet="ServerConfig" />
+            <End Role="ServerBuild" EntitySet="ServerBuild" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubMenu_Permissionsu_SubMenuId" Association="Self.FK_SubMenu_Permissionsu_SubMenuId">
+            <End Role="SubMenu" EntitySet="SubMenu" />
+            <End Role="Permissions" EntitySet="Permissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_BuildProject_BuildBy" Association="Self.FK_User_BuildProject_BuildBy">
+            <End Role="User" EntitySet="User" />
+            <End Role="BuildProject" EntitySet="BuildProject" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Project_CreatedBy" Association="Self.FK_User_Project_CreatedBy">
+            <End Role="User" EntitySet="User" />
+            <End Role="Project" EntitySet="Project" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Project_LastModifiedBy" Association="Self.FK_User_Project_LastModifiedBy">
+            <End Role="User" EntitySet="User" />
+            <End Role="Project" EntitySet="Project" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_ReleaseProject_ReleaseBy" Association="Self.FK_User_ReleaseProject_ReleaseBy">
+            <End Role="User" EntitySet="User" />
+            <End Role="ReleaseProject" EntitySet="ReleaseProject" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_ServerBuild_PublishedBy" Association="Self.FK_User_ServerBuild_PublishedBy">
+            <End Role="User" EntitySet="User" />
+            <End Role="ServerBuild" EntitySet="ServerBuild" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_SupportTickets_FixedBy" Association="Self.FK_User_SupportTickets_FixedBy">
+            <End Role="User" EntitySet="User" />
+            <End Role="SupportTickets" EntitySet="SupportTickets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_SupportTickets_GeneratedBy" Association="Self.FK_User_SupportTickets_GeneratedBy">
+            <End Role="User" EntitySet="User" />
+            <End Role="SupportTickets" EntitySet="SupportTickets" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DevOpsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Branch">
+          <Key>
+            <PropertyRef Name="BranchId" />
+          </Key>
+          <Property Name="BranchId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BranchName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" />
+          <NavigationProperty Name="Project" Relationship="Self.FK_Project_Branch_ProjectId" FromRole="Branch" ToRole="Project" />
+        </EntityType>
+        <EntityType Name="BuildProject">
+          <Key>
+            <PropertyRef Name="BuildId" />
+          </Key>
+          <Property Name="BuildId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProjectId" Type="Int32" />
+          <Property Name="BuildBy" Type="Int32" />
+          <Property Name="Mejor_Version" Type="Byte" />
+          <Property Name="Minor_Version" Type="Byte" />
+          <Property Name="Build_Version" Type="Int32" />
+          <Property Name="DownloadURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BuildDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="ServerBuilds" Relationship="Self.FK_BuildProject_ServerBuild_BuildId" FromRole="BuildProject" ToRole="ServerBuild" />
+          <NavigationProperty Name="Project" Relationship="Self.FK_Project_BuildProject_ProjectId" FromRole="BuildProject" ToRole="Project" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_BuildProject_BuildBy" FromRole="BuildProject" ToRole="User" />
+        </EntityType>
+        <EntityType Name="EmailMaster">
+          <Key>
+            <PropertyRef Name="EmailMasterId" />
+          </Key>
+          <Property Name="EmailMasterId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmailId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="OrganisationId" Type="Int32" />
+          <NavigationProperty Name="Organisation" Relationship="Self.FK_Organisation_EmailMaster_OrganisationId" FromRole="EmailMaster" ToRole="Organisation" />
+        </EntityType>
+        <EntityType Name="MainMenu">
+          <Key>
+            <PropertyRef Name="MainMenuId" />
+          </Key>
+          <Property Name="MainMenuId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MainMenuName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="SubMenus" Relationship="Self.FK_MainMenu_SubMneu_MainMenuId" FromRole="MainMenu" ToRole="SubMenu" />
+        </EntityType>
+        <EntityType Name="Organisation">
+          <Key>
+            <PropertyRef Name="OrganisationId" />
+          </Key>
+          <Property Name="OrganisationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nationality" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="EmailMasters" Relationship="Self.FK_Organisation_EmailMaster_OrganisationId" FromRole="Organisation" ToRole="EmailMaster" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Organisation_Poeject_OrganisationId" FromRole="Organisation" ToRole="Project" />
+          <NavigationProperty Name="ServerConfigs" Relationship="Self.FK_Organisation_ServerConfig_OrganisationId" FromRole="Organisation" ToRole="ServerConfig" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Organisation_User_OrganisationId" FromRole="Organisation" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Permission">
+          <Key>
+            <PropertyRef Name="PermissionId" />
+          </Key>
+          <Property Name="PermissionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoleId" Type="Byte" />
+          <Property Name="SubMenuId" Type="Int32" />
+          <Property Name="Read" Type="Binary" MaxLength="1" FixedLength="true" />
+          <Property Name="Write" Type="Binary" MaxLength="1" FixedLength="true" />
+          <NavigationProperty Name="Role" Relationship="Self.FK_Role_Permissions_RoleId" FromRole="Permissions" ToRole="Role" />
+          <NavigationProperty Name="SubMenu" Relationship="Self.FK_SubMenu_Permissionsu_SubMenuId" FromRole="Permissions" ToRole="SubMenu" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="Price" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="ProjectId" />
+          </Key>
+          <Property Name="ProjectId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProjectName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SolutionName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="OrganisationId" Type="Int32" />
+          <Property Name="SourceURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FileFormat" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Type" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Plateform" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedBy" Type="Int32" />
+          <Property Name="LastModifiedBy" Type="Int32" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Branches" Relationship="Self.FK_Project_Branch_ProjectId" FromRole="Project" ToRole="Branch" />
+          <NavigationProperty Name="BuildProjects" Relationship="Self.FK_Project_BuildProject_ProjectId" FromRole="Project" ToRole="BuildProject" />
+          <NavigationProperty Name="Organisation" Relationship="Self.FK_Organisation_Poeject_OrganisationId" FromRole="Project" ToRole="Organisation" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_Project_CreatedBy" FromRole="Project" ToRole="User" />
+          <NavigationProperty Name="User1" Relationship="Self.FK_User_Project_LastModifiedBy" FromRole="Project" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ReleaseProject">
+          <Key>
+            <PropertyRef Name="ReleaseProjectId" />
+          </Key>
+          <Property Name="ReleaseProjectId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ServerBuildId" Type="Int32" />
+          <Property Name="ReleaseBy" Type="Int32" />
+          <Property Name="Mejor_Version" Type="Byte" />
+          <Property Name="Minor_Version" Type="Byte" />
+          <Property Name="Build_Version" Type="Int32" />
+          <Property Name="ReleaseDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="ServerBuild" Relationship="Self.FK_ServerBuild_ReleaseProject_ServerBuildId" FromRole="ReleaseProject" ToRole="ServerBuild" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_ReleaseProject_ReleaseBy" FromRole="ReleaseProject" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoleName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Permissions" Relationship="Self.FK_Role_Permissions_RoleId" FromRole="Role" ToRole="Permissions" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Role_User_RoleId" FromRole="Role" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ServerBuild">
+          <Key>
+            <PropertyRef Name="ServerBuildId" />
+          </Key>
+          <Property Name="ServerBuildId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BuildId" Type="Int32" />
+          <Property Name="ServerId" Type="Int32" />
+          <Property Name="PublishedBy" Type="Int32" />
+          <Property Name="Mejor_Version" Type="Byte" />
+          <Property Name="Minor_Version" Type="Byte" />
+          <Property Name="Build_Version" Type="Int32" />
+          <Property Name="PublishDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="BuildProject" Relationship="Self.FK_BuildProject_ServerBuild_BuildId" FromRole="ServerBuild" ToRole="BuildProject" />
+          <NavigationProperty Name="ReleaseProjects" Relationship="Self.FK_ServerBuild_ReleaseProject_ServerBuildId" FromRole="ServerBuild" ToRole="ReleaseProject" />
+          <NavigationProperty Name="ServerConfig" Relationship="Self.FK_ServerConfig_ServerBuild_ServerId" FromRole="ServerBuild" ToRole="ServerConfig" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_ServerBuild_PublishedBy" FromRole="ServerBuild" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ServerConfig">
+          <Key>
+            <PropertyRef Name="ServerId" />
+          </Key>
+          <Property Name="ServerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ServerName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IPAddress" Type="String" MaxLength="16" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="RAM" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Processer" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="OS" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Version" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="OrganisationId" Type="Int32" />
+          <NavigationProperty Name="Organisation" Relationship="Self.FK_Organisation_ServerConfig_OrganisationId" FromRole="ServerConfig" ToRole="Organisation" />
+          <NavigationProperty Name="ServerBuilds" Relationship="Self.FK_ServerConfig_ServerBuild_ServerId" FromRole="ServerConfig" ToRole="ServerBuild" />
+          <NavigationProperty Name="ServerCredentials" Relationship="Self.FK_Server_ServerCredentials_ServerId" FromRole="ServerConfig" ToRole="ServerCredentials" />
+        </EntityType>
+        <EntityType Name="ServerCredential">
+          <Key>
+            <PropertyRef Name="ServerCredentialsId" />
+          </Key>
+          <Property Name="ServerCredentialsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ServerId" Type="Int32" />
+          <Property Name="HostName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ConnectionString" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ServerConfig" Relationship="Self.FK_Server_ServerCredentials_ServerId" FromRole="ServerCredentials" ToRole="ServerConfig" />
+        </EntityType>
+        <EntityType Name="SubMenu">
+          <Key>
+            <PropertyRef Name="SubMenuId" />
+          </Key>
+          <Property Name="SubMenuId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MainMenuId" Type="Int32" />
+          <Property Name="SubMenuName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="MainMenu" Relationship="Self.FK_MainMenu_SubMneu_MainMenuId" FromRole="SubMenu" ToRole="MainMenu" />
+          <NavigationProperty Name="Permissions" Relationship="Self.FK_SubMenu_Permissionsu_SubMenuId" FromRole="SubMenu" ToRole="Permissions" />
+        </EntityType>
+        <EntityType Name="SupportTicket">
+          <Key>
+            <PropertyRef Name="TicketId" />
+          </Key>
+          <Property Name="TicketId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GeneratedBy" Type="Int32" />
+          <Property Name="FixedBy" Type="Int32" />
+          <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="GeneratedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="FixedDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Self.FK_User_SupportTickets_FixedBy" FromRole="SupportTickets" ToRole="User" />
+          <NavigationProperty Name="User1" Relationship="Self.FK_User_SupportTickets_GeneratedBy" FromRole="SupportTickets" ToRole="User" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nationality" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Phone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DateOfBirth" Type="DateTime" Precision="0" />
+          <Property Name="OrganisationId" Type="Int32" />
+          <Property Name="RoleId" Type="Byte" />
+          <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="BuildProjects" Relationship="Self.FK_User_BuildProject_BuildBy" FromRole="User" ToRole="BuildProject" />
+          <NavigationProperty Name="Organisation" Relationship="Self.FK_Organisation_User_OrganisationId" FromRole="User" ToRole="Organisation" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_User_Project_CreatedBy" FromRole="User" ToRole="Project" />
+          <NavigationProperty Name="Projects1" Relationship="Self.FK_User_Project_LastModifiedBy" FromRole="User" ToRole="Project" />
+          <NavigationProperty Name="ReleaseProjects" Relationship="Self.FK_User_ReleaseProject_ReleaseBy" FromRole="User" ToRole="ReleaseProject" />
+          <NavigationProperty Name="Role" Relationship="Self.FK_Role_User_RoleId" FromRole="User" ToRole="Role" />
+          <NavigationProperty Name="ServerBuilds" Relationship="Self.FK_User_ServerBuild_PublishedBy" FromRole="User" ToRole="ServerBuild" />
+          <NavigationProperty Name="SupportTickets" Relationship="Self.FK_User_SupportTickets_FixedBy" FromRole="User" ToRole="SupportTickets" />
+          <NavigationProperty Name="SupportTickets1" Relationship="Self.FK_User_SupportTickets_GeneratedBy" FromRole="User" ToRole="SupportTickets" />
+        </EntityType>
+        <EntityType Name="ErrorLog">
+          <Key>
+            <PropertyRef Name="ErrorId" />
+            <PropertyRef Name="Application" />
+            <PropertyRef Name="Host" />
+            <PropertyRef Name="Type" />
+            <PropertyRef Name="Source" />
+            <PropertyRef Name="Message" />
+            <PropertyRef Name="User" />
+            <PropertyRef Name="StatusCode" />
+            <PropertyRef Name="TimeUtc" />
+            <PropertyRef Name="Sequence" />
+          </Key>
+          <Property Name="ErrorId" Type="Guid" Nullable="false" />
+          <Property Name="Application" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Host" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Type" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Source" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Message" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="User" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="StatusCode" Type="Int32" Nullable="false" />
+          <Property Name="TimeUtc" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Sequence" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <Association Name="FK_Project_Branch_ProjectId">
+          <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+          <End Role="Branch" Type="Self.Branch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Project">
+              <PropertyRef Name="ProjectId" />
+            </Principal>
+            <Dependent Role="Branch">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BuildProject_ServerBuild_BuildId">
+          <End Role="BuildProject" Type="Self.BuildProject" Multiplicity="0..1" />
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BuildProject">
+              <PropertyRef Name="BuildId" />
+            </Principal>
+            <Dependent Role="ServerBuild">
+              <PropertyRef Name="BuildId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Project_BuildProject_ProjectId">
+          <End Role="Project" Type="Self.Project" Multiplicity="0..1" />
+          <End Role="BuildProject" Type="Self.BuildProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Project">
+              <PropertyRef Name="ProjectId" />
+            </Principal>
+            <Dependent Role="BuildProject">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_BuildProject_BuildBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="BuildProject" Type="Self.BuildProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="BuildProject">
+              <PropertyRef Name="BuildBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_EmailMaster_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="EmailMaster" Type="Self.EmailMaster" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="EmailMaster">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MainMenu_SubMneu_MainMenuId">
+          <End Role="MainMenu" Type="Self.MainMenu" Multiplicity="0..1" />
+          <End Role="SubMenu" Type="Self.SubMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MainMenu">
+              <PropertyRef Name="MainMenuId" />
+            </Principal>
+            <Dependent Role="SubMenu">
+              <PropertyRef Name="MainMenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_Poeject_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_ServerConfig_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="ServerConfig" Type="Self.ServerConfig" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="ServerConfig">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organisation_User_OrganisationId">
+          <End Role="Organisation" Type="Self.Organisation" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisation">
+              <PropertyRef Name="OrganisationId" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="OrganisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Role_Permissions_RoleId">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="Permissions" Type="Self.Permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="Permissions">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubMenu_Permissionsu_SubMenuId">
+          <End Role="SubMenu" Type="Self.SubMenu" Multiplicity="0..1" />
+          <End Role="Permissions" Type="Self.Permission" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubMenu">
+              <PropertyRef Name="SubMenuId" />
+            </Principal>
+            <Dependent Role="Permissions">
+              <PropertyRef Name="SubMenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Project_CreatedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="CreatedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_Project_LastModifiedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="LastModifiedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServerBuild_ReleaseProject_ServerBuildId">
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="0..1" />
+          <End Role="ReleaseProject" Type="Self.ReleaseProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ServerBuild">
+              <PropertyRef Name="ServerBuildId" />
+            </Principal>
+            <Dependent Role="ReleaseProject">
+              <PropertyRef Name="ServerBuildId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_ReleaseProject_ReleaseBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="ReleaseProject" Type="Self.ReleaseProject" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ReleaseProject">
+              <PropertyRef Name="ReleaseBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Role_User_RoleId">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="User" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServerConfig_ServerBuild_ServerId">
+          <End Role="ServerConfig" Type="Self.ServerConfig" Multiplicity="0..1" />
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ServerConfig">
+              <PropertyRef Name="ServerId" />
+            </Principal>
+            <Dependent Role="ServerBuild">
+              <PropertyRef Name="ServerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_ServerBuild_PublishedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="ServerBuild" Type="Self.ServerBuild" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServerBuild">
+              <PropertyRef Name="PublishedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Server_ServerCredentials_ServerId">
+          <End Role="ServerConfig" Type="Self.ServerConfig" Multiplicity="0..1" />
+          <End Role="ServerCredentials" Type="Self.ServerCredential" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ServerConfig">
+              <PropertyRef Name="ServerId" />
+            </Principal>
+            <Dependent Role="ServerCredentials">
+              <PropertyRef Name="ServerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_SupportTickets_FixedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="SupportTickets" Type="Self.SupportTicket" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="SupportTickets">
+              <PropertyRef Name="FixedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_User_SupportTickets_GeneratedBy">
+          <End Role="User" Type="Self.User" Multiplicity="0..1" />
+          <End Role="SupportTickets" Type="Self.SupportTicket" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="SupportTickets">
+              <PropertyRef Name="GeneratedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DevOpsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Branches" EntityType="Self.Branch" />
+          <EntitySet Name="BuildProjects" EntityType="Self.BuildProject" />
+          <EntitySet Name="EmailMasters" EntityType="Self.EmailMaster" />
+          <EntitySet Name="MainMenus" EntityType="Self.MainMenu" />
+          <EntitySet Name="Organisations" EntityType="Self.Organisation" />
+          <EntitySet Name="Permissions" EntityType="Self.Permission" />
+          <EntitySet Name="Products" EntityType="Self.Product" />
+          <EntitySet Name="Projects" EntityType="Self.Project" />
+          <EntitySet Name="ReleaseProjects" EntityType="Self.ReleaseProject" />
+          <EntitySet Name="Roles" EntityType="Self.Role" />
+          <EntitySet Name="ServerBuilds" EntityType="Self.ServerBuild" />
+          <EntitySet Name="ServerConfigs" EntityType="Self.ServerConfig" />
+          <EntitySet Name="ServerCredentials" EntityType="Self.ServerCredential" />
+          <EntitySet Name="SubMenus" EntityType="Self.SubMenu" />
+          <EntitySet Name="SupportTickets" EntityType="Self.SupportTicket" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <EntitySet Name="ErrorLogs" EntityType="Self.ErrorLog" />
+          <AssociationSet Name="FK_Project_Branch_ProjectId" Association="Self.FK_Project_Branch_ProjectId">
+            <End Role="Project" EntitySet="Projects" />
+            <End Role="Branch" EntitySet="Branches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BuildProject_ServerBuild_BuildId" Association="Self.FK_BuildProject_ServerBuild_BuildId">
+            <End Role="BuildProject" EntitySet="BuildProjects" />
+            <End Role="ServerBuild" EntitySet="ServerBuilds" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Project_BuildProject_ProjectId" Association="Self.FK_Project_BuildProject_ProjectId">
+            <End Role="Project" EntitySet="Projects" />
+            <End Role="BuildProject" EntitySet="BuildProjects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_BuildProject_BuildBy" Association="Self.FK_User_BuildProject_BuildBy">
+            <End Role="User" EntitySet="Users" />
+            <End Role="BuildProject" EntitySet="BuildProjects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_EmailMaster_OrganisationId" Association="Self.FK_Organisation_EmailMaster_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisations" />
+            <End Role="EmailMaster" EntitySet="EmailMasters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MainMenu_SubMneu_MainMenuId" Association="Self.FK_MainMenu_SubMneu_MainMenuId">
+            <End Role="MainMenu" EntitySet="MainMenus" />
+            <End Role="SubMenu" EntitySet="SubMenus" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_Poeject_OrganisationId" Association="Self.FK_Organisation_Poeject_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisations" />
+            <End Role="Project" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_ServerConfig_OrganisationId" Association="Self.FK_Organisation_ServerConfig_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisations" />
+            <End Role="ServerConfig" EntitySet="ServerConfigs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organisation_User_OrganisationId" Association="Self.FK_Organisation_User_OrganisationId">
+            <End Role="Organisation" EntitySet="Organisations" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Role_Permissions_RoleId" Association="Self.FK_Role_Permissions_RoleId">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="Permissions" EntitySet="Permissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubMenu_Permissionsu_SubMenuId" Association="Self.FK_SubMenu_Permissionsu_SubMenuId">
+            <End Role="SubMenu" EntitySet="SubMenus" />
+            <End Role="Permissions" EntitySet="Permissions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Project_CreatedBy" Association="Self.FK_User_Project_CreatedBy">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Project" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_Project_LastModifiedBy" Association="Self.FK_User_Project_LastModifiedBy">
+            <End Role="User" EntitySet="Users" />
+            <End Role="Project" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServerBuild_ReleaseProject_ServerBuildId" Association="Self.FK_ServerBuild_ReleaseProject_ServerBuildId">
+            <End Role="ServerBuild" EntitySet="ServerBuilds" />
+            <End Role="ReleaseProject" EntitySet="ReleaseProjects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_ReleaseProject_ReleaseBy" Association="Self.FK_User_ReleaseProject_ReleaseBy">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ReleaseProject" EntitySet="ReleaseProjects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Role_User_RoleId" Association="Self.FK_Role_User_RoleId">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServerConfig_ServerBuild_ServerId" Association="Self.FK_ServerConfig_ServerBuild_ServerId">
+            <End Role="ServerConfig" EntitySet="ServerConfigs" />
+            <End Role="ServerBuild" EntitySet="ServerBuilds" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_ServerBuild_PublishedBy" Association="Self.FK_User_ServerBuild_PublishedBy">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ServerBuild" EntitySet="ServerBuilds" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Server_ServerCredentials_ServerId" Association="Self.FK_Server_ServerCredentials_ServerId">
+            <End Role="ServerConfig" EntitySet="ServerConfigs" />
+            <End Role="ServerCredentials" EntitySet="ServerCredentials" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_SupportTickets_FixedBy" Association="Self.FK_User_SupportTickets_FixedBy">
+            <End Role="User" EntitySet="Users" />
+            <End Role="SupportTickets" EntitySet="SupportTickets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_User_SupportTickets_GeneratedBy" Association="Self.FK_User_SupportTickets_GeneratedBy">
+            <End Role="User" EntitySet="Users" />
+            <End Role="SupportTickets" EntitySet="SupportTickets" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DevOpsModelStoreContainer" CdmEntityContainer="DevOpsEntities">
+          <EntitySetMapping Name="Branches">
+            <EntityTypeMapping TypeName="DevOpsModel.Branch">
+              <MappingFragment StoreEntitySet="Branch">
+                <ScalarProperty Name="BranchId" ColumnName="BranchId" />
+                <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BuildProjects">
+            <EntityTypeMapping TypeName="DevOpsModel.BuildProject">
+              <MappingFragment StoreEntitySet="BuildProject">
+                <ScalarProperty Name="BuildId" ColumnName="BuildId" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="BuildBy" ColumnName="BuildBy" />
+                <ScalarProperty Name="Mejor_Version" ColumnName="Mejor_Version" />
+                <ScalarProperty Name="Minor_Version" ColumnName="Minor_Version" />
+                <ScalarProperty Name="Build_Version" ColumnName="Build_Version" />
+                <ScalarProperty Name="DownloadURL" ColumnName="DownloadURL" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="BuildDate" ColumnName="BuildDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EmailMasters">
+            <EntityTypeMapping TypeName="DevOpsModel.EmailMaster">
+              <MappingFragment StoreEntitySet="EmailMaster">
+                <ScalarProperty Name="EmailMasterId" ColumnName="EmailMasterId" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="OrganisationId" ColumnName="OrganisationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MainMenus">
+            <EntityTypeMapping TypeName="DevOpsModel.MainMenu">
+              <MappingFragment StoreEntitySet="MainMenu">
+                <ScalarProperty Name="MainMenuId" ColumnName="MainMenuId" />
+                <ScalarProperty Name="MainMenuName" ColumnName="MainMenuName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Organisations">
+            <EntityTypeMapping TypeName="DevOpsModel.Organisation">
+              <MappingFragment StoreEntitySet="Organisation">
+                <ScalarProperty Name="OrganisationId" ColumnName="OrganisationId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Permissions">
+            <EntityTypeMapping TypeName="DevOpsModel.Permission">
+              <MappingFragment StoreEntitySet="Permissions">
+                <ScalarProperty Name="PermissionId" ColumnName="PermissionId" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="SubMenuId" ColumnName="SubMenuId" />
+                <ScalarProperty Name="Read" ColumnName="Read" />
+                <ScalarProperty Name="Write" ColumnName="Write" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="DevOpsModel.Product">
+              <MappingFragment StoreEntitySet="Product">
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Projects">
+            <EntityTypeMapping TypeName="DevOpsModel.Project">
+              <MappingFragment StoreEntitySet="Project">
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+                <ScalarProperty Name="SolutionName" ColumnName="SolutionName" />
+                <ScalarProperty Name="OrganisationId" ColumnName="OrganisationId" />
+                <ScalarProperty Name="SourceURL" ColumnName="SourceURL" />
+                <ScalarProperty Name="FileFormat" ColumnName="FileFormat" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Plateform" ColumnName="Plateform" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="LastModifiedBy" ColumnName="LastModifiedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="LastModifiedDate" ColumnName="LastModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ReleaseProjects">
+            <EntityTypeMapping TypeName="DevOpsModel.ReleaseProject">
+              <MappingFragment StoreEntitySet="ReleaseProject">
+                <ScalarProperty Name="ReleaseProjectId" ColumnName="ReleaseProjectId" />
+                <ScalarProperty Name="ServerBuildId" ColumnName="ServerBuildId" />
+                <ScalarProperty Name="ReleaseBy" ColumnName="ReleaseBy" />
+                <ScalarProperty Name="Mejor_Version" ColumnName="Mejor_Version" />
+                <ScalarProperty Name="Minor_Version" ColumnName="Minor_Version" />
+                <ScalarProperty Name="Build_Version" ColumnName="Build_Version" />
+                <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="DevOpsModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServerBuilds">
+            <EntityTypeMapping TypeName="DevOpsModel.ServerBuild">
+              <MappingFragment StoreEntitySet="ServerBuild">
+                <ScalarProperty Name="ServerBuildId" ColumnName="ServerBuildId" />
+                <ScalarProperty Name="BuildId" ColumnName="BuildId" />
+                <ScalarProperty Name="ServerId" ColumnName="ServerId" />
+                <ScalarProperty Name="PublishedBy" ColumnName="PublishedBy" />
+                <ScalarProperty Name="Mejor_Version" ColumnName="Mejor_Version" />
+                <ScalarProperty Name="Minor_Version" ColumnName="Minor_Version" />
+                <ScalarProperty Name="Build_Version" ColumnName="Build_Version" />
+                <ScalarProperty Name="PublishDate" ColumnName="PublishDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServerConfigs">
+            <EntityTypeMapping TypeName="DevOpsModel.ServerConfig">
+              <MappingFragment StoreEntitySet="ServerConfig">
+                <ScalarProperty Name="ServerId" ColumnName="ServerId" />
+                <ScalarProperty Name="ServerName" ColumnName="ServerName" />
+                <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+                <ScalarProperty Name="RAM" ColumnName="RAM" />
+                <ScalarProperty Name="Processer" ColumnName="Processer" />
+                <ScalarProperty Name="OS" ColumnName="OS" />
+                <ScalarProperty Name="Version" ColumnName="Version" />
+                <ScalarProperty Name="OrganisationId" ColumnName="OrganisationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServerCredentials">
+            <EntityTypeMapping TypeName="DevOpsModel.ServerCredential">
+              <MappingFragment StoreEntitySet="ServerCredentials">
+                <ScalarProperty Name="ServerCredentialsId" ColumnName="ServerCredentialsId" />
+                <ScalarProperty Name="ServerId" ColumnName="ServerId" />
+                <ScalarProperty Name="HostName" ColumnName="HostName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="ConnectionString" ColumnName="ConnectionString" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SubMenus">
+            <EntityTypeMapping TypeName="DevOpsModel.SubMenu">
+              <MappingFragment StoreEntitySet="SubMenu">
+                <ScalarProperty Name="SubMenuId" ColumnName="SubMenuId" />
+                <ScalarProperty Name="MainMenuId" ColumnName="MainMenuId" />
+                <ScalarProperty Name="SubMenuName" ColumnName="SubMenuName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SupportTickets">
+            <EntityTypeMapping TypeName="DevOpsModel.SupportTicket">
+              <MappingFragment StoreEntitySet="SupportTickets">
+                <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+                <ScalarProperty Name="GeneratedBy" ColumnName="GeneratedBy" />
+                <ScalarProperty Name="FixedBy" ColumnName="FixedBy" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+                <ScalarProperty Name="FixedDate" ColumnName="FixedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="DevOpsModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="OrganisationId" ColumnName="OrganisationId" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ErrorLogs">
+            <EntityTypeMapping TypeName="DevOpsModel.ErrorLog">
+              <MappingFragment StoreEntitySet="ErrorLog">
+                <ScalarProperty Name="ErrorId" ColumnName="ErrorId" />
+                <ScalarProperty Name="Application" ColumnName="Application" />
+                <ScalarProperty Name="Host" ColumnName="Host" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Source" ColumnName="Source" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="User" ColumnName="User" />
+                <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+                <ScalarProperty Name="TimeUtc" ColumnName="TimeUtc" />
+                <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

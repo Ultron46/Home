@@ -1,0 +1,377 @@
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Business.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Business.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\obj\Debug\DevOps.Business.csproj.CoreCompileInputs.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\obj\Debug\DevOps.Business.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\obj\Debug\DevOps.Business.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Business.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\EntityFramework.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\EntityFramework.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\obj\Debug\DevOps.Business.csproj.CopyComplete
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\netstandard.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.AppContext.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Collections.Concurrent.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Collections.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Collections.NonGeneric.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Collections.Specialized.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.ComponentModel.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Console.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Data.Common.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.Debug.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.Process.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.Tools.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Drawing.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Dynamic.Runtime.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Globalization.Calendars.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Globalization.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Globalization.Extensions.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.Compression.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.FileSystem.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.Pipes.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Linq.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Linq.Expressions.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Linq.Parallel.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Linq.Queryable.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.Http.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.NameResolution.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.NetworkInformation.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.Ping.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.Requests.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.Security.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.Sockets.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Net.WebSockets.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.ObjectModel.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Reflection.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Reflection.Extensions.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Reflection.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Resources.Reader.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Resources.ResourceManager.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Resources.Writer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.Extensions.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.Handles.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.InteropServices.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.Numerics.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.Claims.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.Principal.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Security.SecureString.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Text.Encoding.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Text.RegularExpressions.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.Overlapped.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.Tasks.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.Thread.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.ThreadPool.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.Timer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.ValueTuple.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Xml.XDocument.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Xml.XmlDocument.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Xml.XPath.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\Autofac.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Data.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.DataEntities.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.DataEntities.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.DataEntities.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Data.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Data.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\Autofac.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\Autofac.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\obj\Debug\DevOps.Business.csprojAssemblyReference.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Common.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Common.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Business\bin\Debug\DevOps.Common.dll.config
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Business.dll.config
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Business.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Business.pdb
+D:\DevOps_Build\DevOps.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\netstandard.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.AppContext.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Collections.Concurrent.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Collections.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Collections.NonGeneric.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Collections.Specialized.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.ComponentModel.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.ComponentModel.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Console.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Data.Common.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.Contracts.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.Debug.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.Process.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.Tools.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Diagnostics.Tracing.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Drawing.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Dynamic.Runtime.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Globalization.Calendars.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Globalization.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Globalization.Extensions.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.Compression.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.FileSystem.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.IsolatedStorage.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.Pipes.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Linq.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Linq.Expressions.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Linq.Parallel.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Linq.Queryable.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.Http.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.NameResolution.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.NetworkInformation.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.Ping.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.Requests.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.Security.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.Sockets.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.WebSockets.Client.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Net.WebSockets.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.ObjectModel.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Reflection.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Reflection.Extensions.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Reflection.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Resources.Reader.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Resources.ResourceManager.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Resources.Writer.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.Extensions.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.Handles.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.InteropServices.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.Numerics.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.Claims.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.Principal.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Security.SecureString.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Text.Encoding.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Text.RegularExpressions.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.Overlapped.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.Tasks.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.Thread.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.ThreadPool.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.Timer.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.ValueTuple.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Xml.ReaderWriter.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Xml.XDocument.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Xml.XmlDocument.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Xml.XmlSerializer.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Xml.XPath.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\Autofac.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Common.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Data.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.DataEntities.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\EntityFramework.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Common.pdb
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Common.dll.config
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.DataEntities.pdb
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.DataEntities.dll.config
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Data.pdb
+D:\DevOps_Build\DevOps.Business\bin\Debug\DevOps.Data.dll.config
+D:\DevOps_Build\DevOps.Business\bin\Debug\Autofac.pdb
+D:\DevOps_Build\DevOps.Business\bin\Debug\Autofac.xml
+D:\DevOps_Build\DevOps.Business\bin\Debug\EntityFramework.xml
+D:\DevOps_Build\DevOps.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\DevOps_Build\DevOps.Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DevOps_Build\DevOps.Business\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\DevOps_Build\DevOps.Business\obj\Debug\DevOps.Business.csprojAssemblyReference.cache
+D:\DevOps_Build\DevOps.Business\obj\Debug\DevOps.Business.csproj.CoreCompileInputs.cache
+D:\DevOps_Build\DevOps.Business\obj\Debug\DevOps.Business.csproj.CopyComplete
+D:\DevOps_Build\DevOps.Business\obj\Debug\DevOps.Business.dll
+D:\DevOps_Build\DevOps.Business\obj\Debug\DevOps.Business.pdb
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Business.dll.config
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Business.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Business.pdb
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\netstandard.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.AppContext.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Collections.Concurrent.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Collections.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Collections.NonGeneric.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Collections.Specialized.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.ComponentModel.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.ComponentModel.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Console.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Data.Common.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.Contracts.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.Debug.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.Process.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.Tools.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Diagnostics.Tracing.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Drawing.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Dynamic.Runtime.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Globalization.Calendars.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Globalization.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Globalization.Extensions.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.Compression.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.FileSystem.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.IsolatedStorage.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.Pipes.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Linq.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Linq.Expressions.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Linq.Parallel.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Linq.Queryable.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.Http.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.NameResolution.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.NetworkInformation.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.Ping.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.Requests.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.Security.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.Sockets.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.WebSockets.Client.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Net.WebSockets.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.ObjectModel.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Reflection.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Reflection.Extensions.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Reflection.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Resources.Reader.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Resources.ResourceManager.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Resources.Writer.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.Extensions.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.Handles.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.InteropServices.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.Numerics.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.Claims.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.Principal.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Security.SecureString.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Text.Encoding.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Text.RegularExpressions.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.Overlapped.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.Tasks.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.Thread.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.ThreadPool.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.Timer.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.ValueTuple.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Xml.ReaderWriter.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Xml.XDocument.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Xml.XmlDocument.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Xml.XmlSerializer.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Xml.XPath.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\Autofac.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Common.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Data.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.DataEntities.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\EntityFramework.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Common.pdb
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Common.dll.config
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.DataEntities.pdb
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.DataEntities.dll.config
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Data.pdb
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\DevOps.Data.dll.config
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\Autofac.pdb
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\Autofac.xml
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\EntityFramework.xml
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DevOps-master\DevOps-master\DevOps.Business\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\DevOps-master\DevOps-master\DevOps.Business\obj\Debug\DevOps.Business.csprojAssemblyReference.cache
+D:\DevOps-master\DevOps-master\DevOps.Business\obj\Debug\DevOps.Business.csproj.CopyComplete
+D:\DevOps-master\DevOps-master\DevOps.Business\obj\Debug\DevOps.Business.dll
+D:\DevOps-master\DevOps-master\DevOps.Business\obj\Debug\DevOps.Business.pdb

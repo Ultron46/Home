@@ -1,0 +1,53 @@
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\DevOps.Data.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\DevOps.Data.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\DevOps.Data.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\AutoMapper.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\DevOps.DataEntities.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\EntityFramework.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\DevOps.DataEntities.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\DevOps.DataEntities.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\AutoMapper.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\AutoMapper.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\EntityFramework.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\obj\Debug\DevOps.Data.csprojAssemblyReference.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\obj\Debug\DevOps.Data.csproj.CoreCompileInputs.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\obj\Debug\DevOps.Data.csproj.CopyComplete
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\obj\Debug\DevOps.Data.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.Data\obj\Debug\DevOps.Data.pdb
+D:\DevOps_Build\DevOps.Data\bin\Debug\DevOps.Data.dll.config
+D:\DevOps_Build\DevOps.Data\bin\Debug\DevOps.Data.dll
+D:\DevOps_Build\DevOps.Data\bin\Debug\DevOps.Data.pdb
+D:\DevOps_Build\DevOps.Data\bin\Debug\AutoMapper.dll
+D:\DevOps_Build\DevOps.Data\bin\Debug\DevOps.DataEntities.dll
+D:\DevOps_Build\DevOps.Data\bin\Debug\EntityFramework.dll
+D:\DevOps_Build\DevOps.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\DevOps_Build\DevOps.Data\bin\Debug\DevOps.DataEntities.pdb
+D:\DevOps_Build\DevOps.Data\bin\Debug\DevOps.DataEntities.dll.config
+D:\DevOps_Build\DevOps.Data\bin\Debug\AutoMapper.pdb
+D:\DevOps_Build\DevOps.Data\bin\Debug\AutoMapper.xml
+D:\DevOps_Build\DevOps.Data\bin\Debug\EntityFramework.xml
+D:\DevOps_Build\DevOps.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\DevOps_Build\DevOps.Data\obj\Debug\DevOps.Data.csprojAssemblyReference.cache
+D:\DevOps_Build\DevOps.Data\obj\Debug\DevOps.Data.csproj.CoreCompileInputs.cache
+D:\DevOps_Build\DevOps.Data\obj\Debug\DevOps.Data.csproj.CopyComplete
+D:\DevOps_Build\DevOps.Data\obj\Debug\DevOps.Data.dll
+D:\DevOps_Build\DevOps.Data\obj\Debug\DevOps.Data.pdb
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\DevOps.Data.dll.config
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\DevOps.Data.dll
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\DevOps.Data.pdb
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\AutoMapper.dll
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\DevOps.DataEntities.dll
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\EntityFramework.dll
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\DevOps.DataEntities.pdb
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\DevOps.DataEntities.dll.config
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\AutoMapper.pdb
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\AutoMapper.xml
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\EntityFramework.xml
+D:\DevOps-master\DevOps-master\DevOps.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\DevOps-master\DevOps-master\DevOps.Data\obj\Debug\DevOps.Data.csprojAssemblyReference.cache
+D:\DevOps-master\DevOps-master\DevOps.Data\obj\Debug\DevOps.Data.csproj.CopyComplete
+D:\DevOps-master\DevOps-master\DevOps.Data\obj\Debug\DevOps.Data.dll
+D:\DevOps-master\DevOps-master\DevOps.Data\obj\Debug\DevOps.Data.pdb

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d0bb9bc43b94c21a7e289a7a62d1269" Name="Diagram1">
+        <EntityTypeShape EntityType="DevOpsModel.Branch" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.BuildProject" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.EmailMaster" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.MainMenu" Width="1.5" PointX="7.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.Organisation" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.Permission" Width="1.5" PointX="12.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.Product" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.Project" Width="1.5" PointX="6" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.ReleaseProject" Width="1.5" PointX="12.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.Role" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.ServerBuild" Width="1.5" PointX="10.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.ServerConfig" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.ServerCredential" Width="1.5" PointX="5.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.SubMenu" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.SupportTicket" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.User" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DevOpsModel.ErrorLog" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="DevOpsModel.FK_Project_Branch_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_BuildProject_ServerBuild_BuildId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Project_BuildProject_ProjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_User_BuildProject_BuildBy" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Organisation_EmailMaster_OrganisationId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_MainMenu_SubMneu_MainMenuId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Organisation_Poeject_OrganisationId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Organisation_ServerConfig_OrganisationId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Organisation_User_OrganisationId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Role_Permissions_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_SubMenu_Permissionsu_SubMenuId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_User_Project_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_User_Project_LastModifiedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_ServerBuild_ReleaseProject_ServerBuildId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_User_ReleaseProject_ReleaseBy" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Role_User_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_ServerConfig_ServerBuild_ServerId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_User_ServerBuild_PublishedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_Server_ServerCredentials_ServerId" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_User_SupportTickets_FixedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="DevOpsModel.FK_User_SupportTickets_GeneratedBy" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

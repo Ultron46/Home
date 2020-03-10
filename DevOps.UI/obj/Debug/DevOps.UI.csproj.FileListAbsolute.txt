@@ -1,0 +1,299 @@
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.UI.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.UI.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.UI.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\csc.exe
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\csc.exe.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\csc.rsp
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\csi.exe
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\csi.exe.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\csi.rsp
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.AppContext.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Collections.Immutable.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Console.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.IO.Compression.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.IO.FileSystem.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.IO.Pipes.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Security.AccessControl.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Security.Claims.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.ValueTuple.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Xml.XPath.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\vbc.exe
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\vbc.exe.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\vbc.rsp
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\VBCSCompiler.exe
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\roslyn\VBCSCompiler.exe.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\Antlr3.Runtime.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\Newtonsoft.Json.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Net.Http.Formatting.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Helpers.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Http.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Http.WebHost.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Mvc.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Optimization.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Razor.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.WebPages.Deployment.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.WebPages.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.WebPages.Razor.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\WebGrease.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\Newtonsoft.Json.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Net.Http.Formatting.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Helpers.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Http.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Http.WebHost.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Mvc.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Optimization.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Razor.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.WebPages.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.WebPages.Deployment.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.WebPages.Razor.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\Antlr3.Runtime.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\obj\Debug\DevOps.UI.csprojAssemblyReference.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\obj\Debug\DevOps.UI.csproj.CoreCompileInputs.cache
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\obj\Debug\DevOps.UI.csproj.CopyComplete
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\obj\Debug\DevOps.UI.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\obj\Debug\DevOps.UI.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.Data.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.DataEntities.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\EntityFramework.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\EntityFramework.SqlServer.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.DataEntities.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.DataEntities.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.Data.pdb
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\DevOps.Data.dll.config
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\EntityFramework.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\EntityFramework.SqlServer.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\PagedList.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\PagedList.Mvc.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\PagedList.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\PagedList.Mvc.xml
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Cors.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Http.Cors.dll
+D:\Hardik.Prajapati\DevOps Build\DevOps\DevOps.UI\bin\System.Web.Http.Cors.xml
+D:\DevOps_Build\DevOps.UI\bin\DevOps.UI.dll.config
+D:\DevOps_Build\DevOps.UI\bin\DevOps.UI.dll
+D:\DevOps_Build\DevOps.UI\bin\DevOps.UI.pdb
+D:\DevOps_Build\DevOps.UI\bin\roslyn\csc.exe
+D:\DevOps_Build\DevOps.UI\bin\roslyn\csc.exe.config
+D:\DevOps_Build\DevOps.UI\bin\roslyn\csc.rsp
+D:\DevOps_Build\DevOps.UI\bin\roslyn\csi.exe
+D:\DevOps_Build\DevOps.UI\bin\roslyn\csi.exe.config
+D:\DevOps_Build\DevOps.UI\bin\roslyn\csi.rsp
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DevOps_Build\DevOps.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.AppContext.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Collections.Immutable.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Console.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.IO.Compression.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.IO.FileSystem.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.IO.Pipes.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Reflection.Metadata.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Security.AccessControl.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Security.Claims.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.ValueTuple.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Xml.XPath.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DevOps_Build\DevOps.UI\bin\roslyn\vbc.exe
+D:\DevOps_Build\DevOps.UI\bin\roslyn\vbc.exe.config
+D:\DevOps_Build\DevOps.UI\bin\roslyn\vbc.rsp
+D:\DevOps_Build\DevOps.UI\bin\roslyn\VBCSCompiler.exe
+D:\DevOps_Build\DevOps.UI\bin\roslyn\VBCSCompiler.exe.config
+D:\DevOps_Build\DevOps.UI\bin\Antlr3.Runtime.dll
+D:\DevOps_Build\DevOps.UI\bin\DevOps.Data.dll
+D:\DevOps_Build\DevOps.UI\bin\DevOps.DataEntities.dll
+D:\DevOps_Build\DevOps.UI\bin\EntityFramework.dll
+D:\DevOps_Build\DevOps.UI\bin\EntityFramework.SqlServer.dll
+D:\DevOps_Build\DevOps.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DevOps_Build\DevOps.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\DevOps_Build\DevOps.UI\bin\Newtonsoft.Json.dll
+D:\DevOps_Build\DevOps.UI\bin\PagedList.dll
+D:\DevOps_Build\DevOps.UI\bin\PagedList.Mvc.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Net.Http.Formatting.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Cors.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Helpers.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Http.Cors.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Http.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Http.WebHost.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Mvc.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Optimization.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Razor.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.WebPages.Deployment.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.WebPages.dll
+D:\DevOps_Build\DevOps.UI\bin\System.Web.WebPages.Razor.dll
+D:\DevOps_Build\DevOps.UI\bin\WebGrease.dll
+D:\DevOps_Build\DevOps.UI\bin\DevOps.DataEntities.pdb
+D:\DevOps_Build\DevOps.UI\bin\DevOps.DataEntities.dll.config
+D:\DevOps_Build\DevOps.UI\bin\DevOps.Data.pdb
+D:\DevOps_Build\DevOps.UI\bin\DevOps.Data.dll.config
+D:\DevOps_Build\DevOps.UI\bin\EntityFramework.xml
+D:\DevOps_Build\DevOps.UI\bin\EntityFramework.SqlServer.xml
+D:\DevOps_Build\DevOps.UI\bin\PagedList.xml
+D:\DevOps_Build\DevOps.UI\bin\PagedList.Mvc.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Net.Http.Formatting.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Http.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Http.Cors.xml
+D:\DevOps_Build\DevOps.UI\bin\Newtonsoft.Json.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Helpers.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Http.WebHost.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Mvc.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Optimization.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.Razor.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.WebPages.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.WebPages.Deployment.xml
+D:\DevOps_Build\DevOps.UI\bin\System.Web.WebPages.Razor.xml
+D:\DevOps_Build\DevOps.UI\bin\Antlr3.Runtime.pdb
+D:\DevOps_Build\DevOps.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DevOps_Build\DevOps.UI\obj\Debug\DevOps.UI.csprojAssemblyReference.cache
+D:\DevOps_Build\DevOps.UI\obj\Debug\DevOps.UI.csproj.CoreCompileInputs.cache
+D:\DevOps_Build\DevOps.UI\obj\Debug\DevOps.UI.csproj.CopyComplete
+D:\DevOps_Build\DevOps.UI\obj\Debug\DevOps.UI.dll
+D:\DevOps_Build\DevOps.UI\obj\Debug\DevOps.UI.pdb
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.UI.dll.config
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.UI.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.UI.pdb
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\csc.exe
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\csc.exe.config
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\csc.rsp
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\csi.exe
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\csi.exe.config
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\csi.rsp
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.AppContext.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Collections.Immutable.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Console.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.IO.Compression.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.IO.FileSystem.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.IO.Pipes.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Reflection.Metadata.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Security.AccessControl.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Security.Claims.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.ValueTuple.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Xml.XPath.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\vbc.exe
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\vbc.exe.config
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\vbc.rsp
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\VBCSCompiler.exe
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\roslyn\VBCSCompiler.exe.config
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\Antlr3.Runtime.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.Data.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.DataEntities.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\EntityFramework.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\EntityFramework.SqlServer.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\Newtonsoft.Json.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\PagedList.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\PagedList.Mvc.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Net.Http.Formatting.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Cors.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Helpers.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Http.Cors.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Http.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Http.WebHost.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Mvc.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Optimization.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Razor.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.WebPages.Deployment.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.WebPages.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.WebPages.Razor.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\WebGrease.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.DataEntities.pdb
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.DataEntities.dll.config
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.Data.pdb
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.Data.dll.config
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\EntityFramework.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\EntityFramework.SqlServer.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\PagedList.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\PagedList.Mvc.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Net.Http.Formatting.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Http.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Http.Cors.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\Newtonsoft.Json.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Helpers.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Http.WebHost.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Mvc.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Optimization.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.Razor.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.WebPages.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.WebPages.Deployment.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\System.Web.WebPages.Razor.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\Antlr3.Runtime.pdb
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DevOps-master\DevOps-master\DevOps.UI\obj\Debug\DevOps.UI.csprojAssemblyReference.cache
+D:\DevOps-master\DevOps-master\DevOps.UI\obj\Debug\DevOps.UI.csproj.CopyComplete
+D:\DevOps-master\DevOps-master\DevOps.UI\obj\Debug\DevOps.UI.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\obj\Debug\DevOps.UI.pdb
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.Common.dll
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.Common.pdb
+D:\DevOps-master\DevOps-master\DevOps.UI\bin\DevOps.Common.dll.config
